@@ -12,3 +12,13 @@
 4. BONUS: Set up a new Hello World project and add unit tests for the `worker.js`.
    * Testing: https://developers.cloudflare.com/workers/get-started/guide/#5-write-tests
    * I used Mocha and Chai, so the example code required some changes
+
+## Other folders
+
+### Unit tests
+
+* An example of running unit tests against the worker can be found from [unit-tests](https://github.com/cybercom-finland/code-forward-23/tree/main/edge-computing/unit-tests) folder.
+
+### QR code generator
+
+* An example of qr code generator can be found from [qr-code-generator](https://github.com/cybercom-finland/code-forward-23/tree/main/edge-computing/qr-code-generator)
