@@ -1,9 +1,12 @@
 import type { Repo } from "../../../common/types";
 import { pipe } from "rambda";
 import capitalize from "capitalize";
+import { component$, useContext } from "@builder.io/qwik";
+import { CTX } from "~/routes";
 
-export const GuildItem = (props: { repo: Repo }) => {
+export const GuildItem = component$<{ repo: Repo }>((props) => {
   const { repo } = props;
+  const state = useContext(CTX);
 
   const formattedName = pipe(
     (res) => res.replaceAll(/-/g, " "),
@@ -23,7 +26,13 @@ export const GuildItem = (props: { repo: Repo }) => {
             "No description provided by the lazy guild master."}
         </p>
         <div class="button-container">
-          <button onClick$={() => null}>Make favourite</button>
+          <button
+            onClick$={() => {
+              state.favouriteGuild = formattedName;
+            }}
+          >
+            Make favourite
+          </button>
           <button onClick$={() => null}>
             {!showStats ? "Show" : "Hide"} commit stats
           </button>
@@ -36,4 +45,4 @@ export const GuildItem = (props: { repo: Repo }) => {
       </div>
     </li>
   );
-};
+});
