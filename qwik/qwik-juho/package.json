@@ -34,5 +34,11 @@
     "undici": "5.22.1",
     "vite": "4.4.7",
     "vite-tsconfig-paths": "4.2.0"
+  },
+  "dependencies": {
+    "@amcharts/amcharts5": "^5.4.5",
+    "@types/capitalize": "^2.0.0",
+    "capitalize": "^2.0.4",
+    "rambda": "^8.3.0"
   }
 }
