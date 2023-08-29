@@ -363,3 +363,18 @@ layout: center
 
 ---
 
+# Testing and comparing
+
+
+<v-clicks>
+
+-  Stop the `npm run dev` of your quick app
+-  Start again by running `npm run preview`
+-  Open your network tab, disable cache and set throttling to slow 3g
+
+</v-clicks>
+
+
+---
+
+
