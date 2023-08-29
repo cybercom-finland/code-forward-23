@@ -36,9 +36,11 @@
     "vite-tsconfig-paths": "4.2.0"
   },
   "dependencies": {
-    "@amcharts/amcharts5": "^5.4.5",
     "@types/capitalize": "^2.0.0",
     "capitalize": "^2.0.4",
+    "chart.js": "^4.4.0",
+    "chartjs-adapter-moment": "^1.0.1",
+    "moment": "^2.29.4",
     "rambda": "^8.3.0"
   }
 }
