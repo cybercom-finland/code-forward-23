@@ -12,3 +12,67 @@
   align-items: center;
   font-size: 29px;
 }
+
+.cloud {
+  display: grid;
+  position: relative;
+  font-size: 50px;
+}
+
+.cloud svg {
+  position: absolute;
+}
+
+.cloud svg:nth-of-type(1) {
+  left: 130px;
+  top: 70px;
+}
+
+.cloud svg:nth-of-type(2) {
+  left: 300px;
+  top: 250px;
+}
+
+.cloud svg:nth-of-type(3) {
+  left: 100px;
+  top: 270px;
+}
+
+.cloud svg:nth-of-type(4) {
+  left: 600px;
+  top: 150px;
+}
+
+.cloud svg:nth-of-type(5) {
+  left: 400px;
+  top: 100px;
+}
+
+.cloud svg:nth-of-type(6) {
+  left: 300px;
+  top: 142px;
+}
+
+.cloud svg:nth-of-type(7) {
+  left: 448px;
+  top: 294px;
+}
+
+.cloud svg:nth-of-type(8) {
+  left: 200px;
+  top: 200px;
+}
+
+.cloud svg:nth-of-type(9) {
+  left: 300px;
+  top: 300px;
+}
+
+.cloud svg:nth-of-type(10) {
+  left: 500px;
+  top: 100px;
+}
+
+.huge {
+  font-size: 30vh;
+}

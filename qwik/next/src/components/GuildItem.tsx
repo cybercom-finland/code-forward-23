@@ -5,6 +5,7 @@ import { RepoStats } from "./RepoStats";
 import { pipe } from "rambda";
 import capitalize from "capitalize";
 import { MainContext, MainDispatchContext } from "@/mainContext";
+import Link from "next/link";
 
 export const GuildItem = (props: { repo: Repo }) => {
   const { repo } = props;
@@ -23,7 +24,7 @@ export const GuildItem = (props: { repo: Repo }) => {
     <li>
       <div>
         <h3>
-          <a href={repo.html_url}>{formattedName}</a>
+          <Link href={`/guilds/${repo.name}`}>{formattedName}</Link>
         </h3>
         <p>
           {repo.description ||

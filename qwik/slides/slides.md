@@ -14,27 +14,43 @@ backround: none
 
 # Another front-end framework?
 
-<v-clicks>
 
-- <logos-vue />
-- <logos-svelte />
-- <logos-react />
-- <logos-angular />
-- <logos-qwik />
-- <logos-fresh />
-- <logos-solid />
-- <logos-astro />
+<div class="cloud" >
 
-</v-clicks>
+<logos-vue v-click />
+<logos-svelte v-click />
+<logos-react v-click />
+<logos-angular v-click />
+<logos-qwik v-click />
+<logos-fresh v-click />
+<logos-solid v-click />
+<logos-astro v-click />
+
+</div>
+
 
 ---
+layout: two-cols
+---
+
+![mishko](https://qwikschool.com/misko.png) 
+
+::right::
 
 # The selling points
 
 <v-clicks>
 
+- Delaying execution
+    > "At its simplest, a Qwik application only 
+    > needs about 1KB of JavaScript to become interactive."
 - Resumability
+    > "...as a result, the framework's data structures need to be rebuilt in the browser,
+    > duplicating the work that was done on the server.""
 - Familiar dx
+    > Rendering with Jsx
+- https://qwik.builder.io
+- QwikCity, PartyTown
 
 </v-clicks>
 
@@ -376,5 +392,4 @@ layout: center
 
 
 ---
-
 

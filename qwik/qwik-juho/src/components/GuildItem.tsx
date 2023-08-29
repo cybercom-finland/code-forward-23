@@ -4,6 +4,7 @@ import capitalize from "capitalize";
 import { component$, useContext, useSignal, useTask$ } from "@builder.io/qwik";
 import { CTX } from "~/routes";
 import { RepoStats } from "./RepoStats";
+import { Link } from "@builder.io/qwik-city";
 
 export const GuildItem = component$<{ repo: Repo }>((props) => {
   const { repo } = props;
@@ -25,7 +26,7 @@ export const GuildItem = component$<{ repo: Repo }>((props) => {
     <li>
       <div>
         <h3>
-          <a href={repo.html_url}>{formattedName}</a>
+          <Link href={`/guilds/${repo.name}`}>{formattedName}</Link>
         </h3>
         <p>
           {repo.description ||
