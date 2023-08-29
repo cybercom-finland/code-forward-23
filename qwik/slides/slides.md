@@ -5,7 +5,6 @@ lineNumbers: false
 drawings:
   persist: false
 title: The Qwik workshop
-background: none
 ---
 
 # The qwik workshop
@@ -103,7 +102,8 @@ layout: two-cols
 npm create qwik@latest
 # use e.g. qwik-yourname as the project name and  select "Empty app"
 # Install these additional depencies,
-npm install @amcharts/amcharts5 rambda amcharts capitalize @types/capitalize
+npm install moment chartjs chartjs-adapter-moment \
+rambda capitalize @types/capitalize
 
 # Alternatively: use ./qwik/qwik-empty 
 
