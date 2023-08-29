@@ -1,3 +1,36 @@
+#app {
+  font-family: "Arial";
+}
+
+#slide-content {
+  background-color: #e4e1db;
+}
+
+#logodiv {
+  display: block;
+  position: absolute;
+  right: 4;
+  top: 10;
+  content: "moror";
+  border: 1px solid red;
+}
+
+li {
+  list-style-type: none;
+}
+
+li::marker {
+  content: "• ";
+  color: #ff00ff;
+}
+
+/* h1, */
+/* h2, */
+/* h3, */
+/* h4 { */
+/*   color: #ff00ff; */
+/* } */
+
 .twocol {
   display: flex;
   gap: 20px;

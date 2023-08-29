@@ -51,13 +51,14 @@ const resetTimer = () => {
       'timer-danger': remaining <= props.danger,
     }"
   >
-    <span m="auto" p="2" v-if="remaining > 0">{{ text }}</span>
-    <span m="auto" p="2" v-else @click="resetTimer">STOP!!!</span>
+    <span m="auto" p="2" bg="white" v-if="remaining > 0">{{ text }}</span>
+    <span bg="white" m="auto" p="2" v-else @click="resetTimer">STOP!!!</span>
     <button
       border="l main"
       p="2"
       font="mono"
       outline="!none"
+      bg="white"
       hover:bg="gray-400 opacity-20"
       @click="startCounter"
       v-if="remaining === props.initial * 60"

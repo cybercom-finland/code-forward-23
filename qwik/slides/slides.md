@@ -5,7 +5,7 @@ lineNumbers: false
 drawings:
   persist: false
 title: The Qwik workshop
-backround: none
+background: none
 ---
 
 # The qwik workshop
@@ -392,4 +392,16 @@ layout: center
 
 
 ---
+
+# Dig in deeper
+
+- https://qwik.builder.io/docs/concepts/think-qwik/
+- https://qwik.builder.io/media/#podcasts
+
+<div class='margin-and-center huge'>
+
+<logos-qwik/>
+
+</div>
+
 
