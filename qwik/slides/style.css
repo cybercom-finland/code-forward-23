@@ -1,0 +1,14 @@
+.twocol {
+  display: flex;
+  gap: 20px;
+}
+.twocol > * {
+  flex: 1;
+}
+.margin-and-center {
+  margin-top: 40px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  font-size: 29px;
+}
