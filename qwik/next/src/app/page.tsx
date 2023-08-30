@@ -1,5 +1,5 @@
-import { AppState, Repo } from "@/types";
-import guildList from "../../guildlist.json";
+import { Repo } from "../../../common/types";
+import guildList from "../../../common/guildlist.json";
 import { GuildApp } from "@/components/GuildApp";
 
 async function getData() {

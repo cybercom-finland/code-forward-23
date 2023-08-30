@@ -1,5 +1,5 @@
 "use client";
-import { AppActions, AppState, Repo } from "@/types";
+import { AppActions, AppState, Repo } from "../../../common/types";
 import React, { useReducer } from "react";
 import { GuildList } from "./GuildList";
 import { SideBar } from "./SideBar";

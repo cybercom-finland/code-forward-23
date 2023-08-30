@@ -397,6 +397,7 @@ layout: center
 
 # Dig in deeper
 
+- https://qwik.builder.io/docs/integrations/react/
 - https://qwik.builder.io/docs/concepts/think-qwik/
 - https://qwik.builder.io/media/#podcasts
 

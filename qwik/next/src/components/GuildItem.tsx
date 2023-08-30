@@ -1,5 +1,5 @@
 "use client";
-import { Repo } from "@/types";
+import { Repo } from "../../../common/types";
 import React, { useContext, useEffect, useState } from "react";
 import { RepoStats } from "./RepoStats";
 import { pipe } from "rambda";

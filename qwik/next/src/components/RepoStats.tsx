@@ -2,7 +2,7 @@ import type { ChartConfiguration } from "chart.js/auto";
 import { Chart } from "chart.js/auto";
 import "chartjs-adapter-moment";
 import React, { useEffect, useLayoutEffect, useRef, useState } from "react";
-import stats from "../../cf1.json";
+import stats from "../../../common/stats.json";
 import { createChart } from "../../../common/utils";
 import { RepoStatArray } from "../../../common/types";
 
