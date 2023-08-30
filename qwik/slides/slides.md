@@ -73,6 +73,8 @@ layout: two-cols
 - Your job: transfer that app to Qwik
 - https://qwik.builder.io/docs/
 - https://github.com/cybercom-finland/code-forward-23 
+- https://rb.gy/a0i22
+- Stackblitz sandbox: https://rb.gy/1aicr
 
 </v-clicks>
 
